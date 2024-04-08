@@ -22,6 +22,8 @@ else:
         weather_advice = f"The Weather in {input_of_User} is Clear and looking amazing."
     elif Weather == 'Rain':
         weather_advice = f"The Weather in {input_of_User} is Rainy and looking refreshing."
+    elif Weather == 'Haze':
+        weather_advice = f"The Weather in {input_of_User} is Hazy and looking Enchanting."
     elif Weather == 'Mist':
         weather_advice = f"The Weather in {input_of_User} is Misty and enchanting"
     elif Weather == 'Clouds':
