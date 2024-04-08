@@ -4,7 +4,7 @@ api_key = 'd5205fb2c5bc2ae18385e121e7014a5b'     # This was obtained in order to
 
 input_of_User = input("Enter City or State:")             # Type in what city or state you want
 
- # Gets the data we want and plugs in into that function
+ # Gets the data we want and plugs in into this Variable
 Data_Weather = requests.get(                              
     f"https://api.openweathermap.org/data/2.5/weather?q={input_of_User}&units=imperial&APPID={api_key}")
 
